@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta name="google-site-verification" content="cqg7OQSbF7CRSikiptkAIQMX6aG6ECkMCgaswsnIfD8" />
@@ -346,23 +345,16 @@
     .contact-band p{margin:6px 0 0}
     .cta-group{display:flex; gap:12px; flex-wrap:wrap}
 
-    .form-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
-    .form-grid .full{grid-column:1/-1}
-    .field label{display:block; font-size:13px; color:var(--ink-mute); margin-bottom:6px; font-weight:600}
-    .field input, .field textarea, .field select{
-      width:100%; padding:13px 14px; border-radius:12px;
-      background:var(--white); border:1px solid var(--line); color:var(--ink);
-      font-family:var(--font-body); font-size:15px;
-      transition:border-color .2s var(--ease);
+    .booking-panel{
+      background:var(--white); border:1px solid var(--line);
+      border-radius:var(--radius-lg); padding:44px 28px;
+      text-align:center; box-shadow:var(--shadow-soft);
     }
-    .field input:focus, .field textarea:focus, .field select:focus{outline:none; border-color:var(--bronze)}
-    .field textarea{min-height:110px; resize:vertical}
-    .hp{position:absolute !important; left:-9999px !important; opacity:0 !important; pointer-events:none !important; width:1px; height:1px}
-    .form-status{margin-top:14px; font-size:14px; line-height:1.5}
-    .form-status:empty{display:none}
-    .form-status.ok{padding:14px 16px; border-radius:12px; background:rgba(80,180,120,.14); border:1px solid rgba(80,180,120,.45); color:#1d6b3f}
-    .form-status.err{padding:14px 16px; border-radius:12px; background:rgba(220,80,80,.10); border:1px solid rgba(220,80,80,.45); color:#a02828}
-    .rgpd{font-size:13px; margin-top:10px; color:var(--ink-mute)}
+    .booking-panel .ico{font-size:34px; margin-bottom:10px}
+    .booking-panel h3{font-size:24px; margin:0 0 10px}
+    .booking-panel p{max-width:58ch; margin:0 auto 24px}
+    .booking-panel .btn{font-size:16px; padding:16px 32px}
+    .booking-panel .micro{display:block; margin-top:14px; font-size:13px; color:var(--ink-mute)}
 
     /* ---------- Footer ---------- */
     .site-footer{background:var(--ink); color:#cfc4b8; padding:56px 0 64px; margin-top:20px}
@@ -387,7 +379,6 @@
       .gallery{grid-template-columns:1fr 1fr}
       .gallery img{height:200px}
       .site-footer .cols{grid-template-columns:1fr}
-      .form-grid{grid-template-columns:1fr}
       .float-cta{display:inline-flex}
       .header-cta .tel{display:none}
     }
@@ -409,7 +400,7 @@
     }
 
     @media print{
-      .site-header, .float-cta, .cta-row, .cta-group, #contact form{display:none}
+      .site-header, .float-cta, .cta-row, .cta-group, .booking-panel{display:none}
       body{background:#fff; color:#000}
       .card, .quote, .step, .plan, .zone, .event{border-color:#ccc; background:#fff}
       .site-footer{background:#fff; color:#000}
@@ -862,68 +853,14 @@
           </div>
         </div>
 
-        <form id="contact-form" class="form-grid"
-              action="https://api.web3forms.com/submit"
-              method="POST"
-              aria-label="Formulaire de demande de devis photobooth">
-
-          <input type="hidden" name="access_key" value="75bba3dd-8d96-459b-a6d0-bd013b694b3c" />
-          <input type="hidden" name="subject" value="Nouvelle demande de devis – Site vitrine Photobooth Tarn" />
-          <input type="hidden" name="from_name" value="Site vitrine Photobooth Tarn" />
-          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-
-          <div class="field">
-            <label for="f-nom">Nom *</label>
-            <input id="f-nom" name="nom" type="text" required autocomplete="name" />
-          </div>
-          <div class="field">
-            <label for="f-email">E-mail *</label>
-            <input id="f-email" name="email" type="email" required autocomplete="email" />
-          </div>
-          <div class="field">
-            <label for="f-tel">Téléphone</label>
-            <input id="f-tel" name="telephone" type="tel" autocomplete="tel" />
-          </div>
-          <div class="field">
-            <label for="f-date">Date de l'événement</label>
-            <input id="f-date" name="date_evenement" type="date" />
-          </div>
-          <div class="field">
-            <label for="f-ville">Ville (dans le Tarn ou alentours)</label>
-            <input id="f-ville" name="ville" type="text" placeholder="Albi, Castres, Gaillac…" />
-          </div>
-          <div class="field">
-            <label for="f-type">Type d'événement</label>
-            <select id="f-type" name="type_evenement">
-              <option>Mariage</option>
-              <option>Anniversaire</option>
-              <option>Entreprise / séminaire</option>
-              <option>Baptême / communion</option>
-              <option>EVJF / EVG</option>
-              <option>Association / fête locale</option>
-              <option>Autre</option>
-            </select>
-          </div>
-          <div class="field full">
-            <label for="f-formule">Formule souhaitée</label>
-            <select id="f-formule" name="formule">
-              <option>La Spherik – Week-end 150 tirages (340 €)</option>
-              <option>La Spherik – Week-end 450 tirages (390 €)</option>
-              <option>La Spherik – Demi-journée 150 tirages (200 €)</option>
-              <option>La Spherik – Demi-journée 450 tirages (250 €)</option>
-              <option>Sur-mesure / je ne sais pas encore</option>
-            </select>
-          </div>
-          <div class="field full">
-            <label for="f-msg">Votre message</label>
-            <textarea id="f-msg" name="message" placeholder="Lieu de réception, nombre d'invités, besoins spécifiques…"></textarea>
-          </div>
-          <div class="full">
-            <button id="contact-submit" class="btn btn--brand" type="submit">Envoyer ma demande</button>
-            <p class="rgpd">En envoyant ce formulaire, vous acceptez d'être recontacté à propos de votre demande.</p>
-            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
-          </div>
-        </form>
+        <div class="booking-panel reveal">
+          <div class="ico" aria-hidden="true">📅</div>
+          <h3>Réservez votre borne à selfie en ligne</h3>
+          <p>Date, ville, formule : faites votre demande de réservation en quelques clics
+          sur notre espace dédié. Nous vous répondons sous 24 h avec un devis gratuit.</p>
+          <a class="btn btn--brand" href="https://franckgaliniephoto.github.io/borneaselfie/">Faire ma demande de réservation →</a>
+          <span class="micro">Vous allez être redirigé vers notre espace de réservation en ligne.</span>
+        </div>
       </div>
     </section>
   </main>
@@ -983,65 +920,6 @@
         });
       }, { threshold: .12 });
       els.forEach(function (el) { io.observe(el); });
-    })();
-
-    // Soumission AJAX du formulaire vers Web3Forms
-    (function () {
-      var form = document.getElementById('contact-form');
-      if (!form) return;
-
-      var status = document.getElementById('form-status');
-      var btn    = document.getElementById('contact-submit');
-      var btnDefaultLabel = btn ? btn.textContent : 'Envoyer';
-
-      function setStatus(type, msg) {
-        status.className = type ? 'form-status ' + type : 'form-status';
-        status.textContent = msg || '';
-      }
-
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-
-        var hp = form.querySelector('input[name="botcheck"]');
-        if (hp && hp.checked) {
-          setStatus('ok', '✅ Merci ! Votre demande a bien été envoyée.');
-          form.reset();
-          return;
-        }
-
-        btn.disabled = true;
-        btn.textContent = 'Envoi en cours…';
-        setStatus('', '');
-
-        var data = new FormData(form);
-
-        fetch(form.action, {
-          method: 'POST',
-          body: data,
-          headers: { 'Accept': 'application/json' }
-        })
-          .then(function (response) {
-            return response.json().then(function (json) {
-              return { ok: response.ok, json: json };
-            });
-          })
-          .then(function (res) {
-            if (res.ok && res.json && res.json.success) {
-              setStatus('ok', '✅ Merci ! Votre demande a bien été envoyée. Nous vous répondons sous 24 h.');
-              form.reset();
-            } else {
-              var msg = (res.json && res.json.message) ? res.json.message : 'Une erreur est survenue.';
-              setStatus('err', '❌ ' + msg + ' Vous pouvez aussi écrire à franckgalinie.photo@gmail.com');
-            }
-          })
-          .catch(function () {
-            setStatus('err', '❌ Impossible d\'envoyer le formulaire (problème réseau). Merci d\'écrire à franckgalinie.photo@gmail.com');
-          })
-          .finally(function () {
-            btn.disabled = false;
-            btn.textContent = btnDefaultLabel;
-          });
-      });
     })();
   </script>
 </body>
