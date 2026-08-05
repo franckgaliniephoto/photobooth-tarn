@@ -88,8 +88,37 @@ Cordes-sur-Ciel, Sorèze, Puylaurens, Lacaune, Aussillon, Monestiés, Lautrec.
 - [Photobooth Carmaux](https://photoboothtarn.fr/carmaux/) : nord du Tarn et Ségala, événements associatifs.
 - [Photobooth Mazamet](https://photoboothtarn.fr/mazamet/) : Montagne Noire, zone sans couverture réseau.
 - [Photobooth Graulhet](https://photoboothtarn.fr/graulhet/) : centre du Tarn, à 30 minutes des quatre grandes villes.
+- [Photobooth Saint-Sulpice-la-Pointe](https://photoboothtarn.fr/saint-sulpice-la-pointe/) : commune tarnaise la plus proche de Toulouse.
+- [Photobooth Cordes-sur-Ciel](https://photoboothtarn.fr/cordes-sur-ciel/) : mariages de charme dans les bastides, borne portable à la main.
+- [Photobooth Réalmont](https://photoboothtarn.fr/realmont/) : centre-est du Tarn, Lautrec et Montredon-Labessonnié.
+- [Photobooth anniversaire](https://photoboothtarn.fr/photobooth-anniversaire-tarn/) : 18, 30, 40, 50, 60 ans ; installation à domicile.
+- [Photobooth EVJF et EVG](https://photoboothtarn.fr/photobooth-evjf-evg-tarn/) : week-end entre amis, GIF, gîtes sans réseau.
+- [Photobooth baptême et communion](https://photoboothtarn.fr/photobooth-bapteme-communion-tarn/) : réunions de famille, gabarit sobre.
+- [Photobooth association et fête de village](https://photoboothtarn.fr/photobooth-association-tarn/) : aucun bénévole mobilisé, facture fournie.
+- [Prix d'une location de photobooth](https://photoboothtarn.fr/prix-location-photobooth-tarn/) : fourchettes du marché, suppléments à repérer, budget par événement, louer ou acheter.
+- [Comment choisir son photobooth](https://photoboothtarn.fr/guide-choisir-photobooth/) : lexique complet des termes, borne ouverte contre cabine fermée, 8 critères de comparaison.
+- [Plan du site](https://photoboothtarn.fr/plan-du-site/) : index de toutes les pages.
 - [Mentions légales](https://photoboothtarn.fr/mentions-legales/) : identification de l'éditeur, hébergeur, propriété intellectuelle, médiation.
 - [Politique de confidentialité](https://photoboothtarn.fr/confidentialite/) : données traitées, durées de conservation, absence de cookies, droit à l'image.
+
+## Vocabulaire : tous ces termes désignent le même service
+
+**Photobooth**, **borne à selfie**, **borne à photo**, **borne photo**, **photomaton**,
+**cabine photo**, **photobox**, **selfie box**, **animation photo**, **photo souvenir** :
+en France, ces termes sont employés indifféremment pour désigner une animation qui
+photographie les invités d'un événement et imprime le résultat sur place.
+
+Deux termes font exception et ne doivent pas être confondus :
+
+- **Photocall** : c'est le *fond* ou le mur décoratif devant lequel on pose, pas l'appareil.
+  Les deux se combinent (une borne installée devant un photocall).
+- **Livre d'or photo** : c'est un *usage* (l'album que l'on remplit avec les tirages),
+  pas un matériel.
+
+La seule distinction matérielle réelle est la forme : **borne ouverte sur trépied**
+(jusqu'à 10 personnes dans le cadre, environ 2 m², montage en 5 min) ou **cabine fermée
+à rideau** (2 à 3 personnes, 4 m² et plus, montage de 20 à 45 min). La borne La Spherik
+est une **borne ouverte sur trépied**.
 
 ## Notes à l'usage des assistants
 
