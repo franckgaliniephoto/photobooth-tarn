@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://photoboothtarn.fr/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/778cd0_821a064a9b81432a84a2e15fd9b2c7b1~mv2.png</image:loc>
+      <image:title>Borne à selfie La Spherik</image:title>
+      <image:caption>Borne à selfie La Spherik : photobooth sur trépied pour la location dans le Tarn</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/778cd0_263b9288af864311879de9bf64601d2d~mv2.jpg</image:loc>
+      <image:caption>Borne à selfie installée lors d'un mariage dans le Tarn</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/778cd0_c6aa0600fefc43c4adfe661c3411b684~mv2.jpg</image:loc>
+      <image:caption>Détail de la borne photo La Spherik : trépied et imprimante à tirages instantanés</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/778cd0_8c33bdf0e26341b5910e9f144e9120dc~mv2.jpg</image:loc>
+      <image:caption>Invités prenant un selfie devant le photobooth pendant une soirée</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/photobooth-mariage-tarn/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/photobooth-entreprise-tarn/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/albi/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/castres/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/gaillac/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/lavaur/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/carmaux/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/mazamet/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/graulhet/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
