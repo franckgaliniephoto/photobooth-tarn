@@ -1,0 +1,19 @@
+{
+  "name": "La Borne à Selfie – Photobooth Tarn",
+  "short_name": "Photobooth Tarn",
+  "description": "Location de photobooth et borne à selfie dans le Tarn (81) : mariages, anniversaires, événements d'entreprise.",
+  "lang": "fr-FR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fdfaf6",
+  "theme_color": "#fdfaf6",
+  "icons": [
+    {
+      "src": "https://static.wixstatic.com/media/778cd0_135782ab10b24ee38c534022c054e935~mv2_d_1666_1666_s_2.jpg",
+      "sizes": "1666x1666",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
