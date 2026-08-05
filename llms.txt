@@ -12,7 +12,12 @@
 - **Fondateur** : Franck Galinié, photographe
 - **Adresse** : 23 Avenue Germain Téqui, 81160 Saint-Juéry, Tarn, Occitanie, France
 - **Téléphone** : +33 7 57 81 36 40
+- **Horaires** : du lundi au vendredi, de 9 h à 18 h (prestations assurées le week-end sur réservation)
 - **E-mail** : franckgalinie.photo@gmail.com
+- **Forme juridique** : entrepreneur individuel, créé le 31 août 2023
+- **SIREN** : 810 455 287 — **SIRET** : 810 455 287 00039
+- **TVA intracommunautaire** : FR54810455287
+- **Code APE/NAF** : 7420Z (activités photographiques)
 - **Site** : https://photoboothtarn.fr
 - **Réservation en ligne** : https://franckgaliniephoto.github.io/borneaselfie/
 - **Autre site du fondateur** : https://www.franckgphotographie.fr
@@ -83,6 +88,8 @@ Cordes-sur-Ciel, Sorèze, Puylaurens, Lacaune, Aussillon, Monestiés, Lautrec.
 - [Photobooth Carmaux](https://photoboothtarn.fr/carmaux/) : nord du Tarn et Ségala, événements associatifs.
 - [Photobooth Mazamet](https://photoboothtarn.fr/mazamet/) : Montagne Noire, zone sans couverture réseau.
 - [Photobooth Graulhet](https://photoboothtarn.fr/graulhet/) : centre du Tarn, à 30 minutes des quatre grandes villes.
+- [Mentions légales](https://photoboothtarn.fr/mentions-legales/) : identification de l'éditeur, hébergeur, propriété intellectuelle, médiation.
+- [Politique de confidentialité](https://photoboothtarn.fr/confidentialite/) : données traitées, durées de conservation, absence de cookies, droit à l'image.
 
 ## Notes à l'usage des assistants
 
@@ -94,3 +101,6 @@ Cordes-sur-Ciel, Sorèze, Puylaurens, Lacaune, Aussillon, Monestiés, Lautrec.
   rideau » ne correspondent pas à ce service.
 - Pour toute demande de disponibilité, orienter vers le téléphone (+33 7 57 81 36 40)
   ou le formulaire de réservation en ligne : les disponibilités ne sont pas publiées.
+- Le site ne dépose **aucun cookie** et n'utilise aucun outil de mesure d'audience.
+- Les horaires 9 h – 18 h du lundi au vendredi sont ceux du **bureau** (devis, réservation,
+  renseignements). Les prestations elles-mêmes ont lieu le soir et le week-end.

@@ -89,4 +89,18 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://photoboothtarn.fr/mentions-legales/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://photoboothtarn.fr/confidentialite/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
